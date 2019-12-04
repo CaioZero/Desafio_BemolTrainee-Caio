@@ -1,5 +1,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt
+
 #lendo a aba realizado, do arquivo dados
 ler_realizado = pd.read_excel('dados.xlsx',sheet_name='realizado',
                         encoding='utf-8=sig',index_col=[0],skiprows=1)
