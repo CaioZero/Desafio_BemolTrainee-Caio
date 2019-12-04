@@ -31,7 +31,7 @@ df['diff'] = 0
 df['diff'] = df['orcado'] - df['realizado']
 
 #gerar um resultado com todos os dados esperados
-df.to_csv('result.csv',index=False)
+df.to_csv('saida.csv',index=False)
 
 #gerando as barras
 plt.bar(df['mes'],df['orcado'], color = 'blue')
